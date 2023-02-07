@@ -1,0 +1,38 @@
+p {
+    color: red;
+    width: 300px;
+    background-color: lightblue;
+}
+/** esto es un comentario dentro de CSS 
+*/
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 15px solid black;
+    /*margin: 30px;*/
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: red;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+  #mi_parrafo {
+    color:aqua;
+    font-size: 50px;
+    border: 1px solid orange; 
+  }
+
+  .esteesmiclase {
+    font-weight: bold;
+    color: black;
+  }

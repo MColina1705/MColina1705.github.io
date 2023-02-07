@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label>Nombre</label>
+        <input type="text" name="Nombre" placeholder="Ingrese su Nombre" required>
+
+        <label>Apellido</label>
+        <input type="text" name="Apellido" placeholder="Ingrese su Apellido" required>
+
+        <label>Edad</label>
+        <input type="number" name="Edad" placeholder="Ingrese su Edad">
+
+        <label>Mail</label>
+        <input type="email" name="Mail" placeholder="Ingrese su Mail" required>
+
+        <label>Password</label>
+        <input type="password" name="Password" placeholder="Ingrese su Contraseña" required>
+
+        <input type="submit" value= "Enviar">
+
+    </form>
+
+    <p>Como te vas a conectar al curso?</p>
+
+    <div>
+        <input type="radio" name="conexion" id="compu" value="compu" checked>
+        <label for="compu">Computadora</label>
+    </div>
+    <div>
+        <input type="radio" name="conexion" id="celu" value="celu" checked>
+        <label for="celu">Celular</label>
+    </div>
+
+</body>
+</html>
