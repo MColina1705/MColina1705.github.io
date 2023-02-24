@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+    <link rel="stylesheet" href="D:\CURSO HTML\CSS\estilos.css">
+</head>
+<body>
+    <h2>Creando un objeto desde JSON String</h2>
+
+    <p id="demo"></p>
+
+    <script>
+
+        const persona = '{"nombre":"Matias", "edad":33, "nacionalidad":"argentino"}';
+        const obj = JSON.parse(persona);
+        console.log (obj)
+        document.getElementById("demo").innerHTML =
+        "Nombre: "+obj.nombre+ " " + "Edad: "+obj.edad;
+        /*let empleados = '{"employees":[' +
+        '{"firstName":"John","lastName":"Doe" },' +
+        '{"firstName":"Anna","lastName":"Smith" },' +
+        '{"firstName":"Peter","lastName":"Jones" }]}';
+
+        const obj = JSON.parse(empleados);
+        document.getElementById("demo").innerHTML =
+        obj.employees[1].firstName + " " + obj.employees[1].lastName;*/
+    </script>
+    
+</body>
+</html>
+
