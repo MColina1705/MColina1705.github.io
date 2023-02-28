@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final CV</title>
+    <link rel="stylesheet" href="D:\CURSO HTML\PROYECTO FINAL\diseño.css">
+</head>
+<body>
+
+    <div>
+        <div class="Titulo">
+            <center>
+                <h1> Curriculum Vitae </h1>
+            </center>
+        </div>   
+
+    <div class="imagen">
+        <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Imagen de Foto CV" style="width: 150px;right: 150px;"> </img> 
+    </div>  
+
+        <div class="titulos">
+            <h2> Datos Personales </h2>
+        </div>
+            <ul>
+                <li> Nombre: Matias </li>
+                <li> Apellido: Cepeda </li>
+                <li> Nro documento: 39000001 </li>
+                <li> Fecha de nac. : 01/01/1990
+                <li> Domicilio: Peron 2125 Piso 1 Depto A </li>
+                <li> Nacionalidad: Argentino </li>
+                <li> Edad: 30  </li>
+            </ul>
+
+        <div class="titulos">
+            <h2>  Aspiraciones: </h2>
+        </div> 
+            <ul>
+                <li>- Desarrollarme profesionalmente utilizando mis conocimientos, incorporando nuevos, enriqueciendo la compañia en la cual me desempeñe. </li>
+                <li>- Aprender y crecer siempre, tanto en lo profesional como en lo personal a fin de superarme día a día.</li>
+                <li>- Enfrentar nuevos desafíos.</li>
+            </ul>
+        </div>
+
+        <div class="titulos">
+            <h2>  Experiencia laboral: </h2>
+        </div> 
+
+        <button onclick="detalle_experiencia()" class="detalle_boton" id="detalle_boton_exp">Ver Más</button>
+
+        <div class= "ocultar" id="vermastexto_exp">
+          <h4>Mar/2020 - Actualidad</h4>  
+          <ul>
+            <li> Restaurante: Encargado, atención al cliente, venta, manejo de caja, control de stock, compra y venta de mercadería. Trato con proveedores. </li>
+          </ul> 
+          <h4>Ago/2018 - Mar/2020</h4> 
+          <ul>
+            <li> Comercio de Ropa: Atención al cliente, venta, control de stock, encargada de local.</li>
+          </ul>  
+          <h4>Ene/2015 - Ago/2018</h4>
+          </ul> 
+          <ul>
+            <li> Call Center: Antención al cliente, ventas. </li>
+          </ul>
+        </div>
+
+        <div class="titulos">
+            <h2>  Estudios: </h2>
+        </div>
+
+        <button onclick="detalle_estudios()" class="detalle_boton" id="detalle_boton_est">Ver Más</button>
+
+        <div class= "ocultar" id="vermastexto_est">
+         <ul>
+            <h3>Curso de Sommelier </h3> 
+            <li> <p> Instituto Privado Argentino de Sommelier  </p> 
+                <p> Fecha de Finalizacion: Dic/2022  </p>
+            </li>
+            <h3>Protocolo y Ceremonial de Eventos </h3> 
+            <li> <p> Instituto Gastronomico </p> 
+                <p> Fecha de Finalizacion: Jun/2020  </p>
+            </li>
+            <h3>Estudios Secundarios </h3> 
+            <li> <p> Escuela de Enseñanza Media N° 3  </p> 
+                <p> Fecha de Finalizacion: Dic/2014  </p>
+            </li>
+         </ul>
+        </div>
+
+        <div class="titulos">
+            <h2>  Idiomas: </h2>
+        </div>
+        <button onclick="detalle_idiomas()" class="detalle_boton" id="detalle_boton_idi">Ver Más</button>
+
+        <div class= "ocultar" id="vermastexto_idi">
+         <ul>
+            <h3>Inglés:</h3> 
+            <li>Nivel Medio </li>
+         </ul>
+        </div>
+
+
+        <div class="titulos">
+            <h2>  Referencias: </h2>
+        </div>
+        <button onclick="detalle_referencia()" class="detalle_boton" id="detalle_boton_ref">Ver Más</button>
+
+        <div class= "ocultar" id="vermastexto_ref">
+         <ul>
+            <li>Jorge Suarez Tel: 4255-1717 </li>
+            <li>Muricio Martinez Tel: 1158581717 </li>
+            <li>Pilar Gomez Tel: 4275-8585 </li>
+         </ul>
+        </div>
+    </div>
+
+    <script src="D:\CURSO HTML\PROYECTO FINAL\cv.js"></script>
+</body>
+</html>
